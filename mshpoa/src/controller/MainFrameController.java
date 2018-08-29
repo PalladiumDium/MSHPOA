@@ -52,7 +52,7 @@ public class MainFrameController {
 
     private void updateView() {
 
-        String strOut = "Il y à " + listStations.size() + " stations météo";
+        String strOut = "Il y a " + listStations.size() + " stations météo";
 
         mesures = new ArrayList<>();
         for (DataStationMeteo station :

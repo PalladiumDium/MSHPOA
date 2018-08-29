@@ -1,20 +1,16 @@
 package parser;
 
 
-import jdk.nashorn.api.scripting.JSObject;
-import jdk.nashorn.internal.runtime.JSONFunctions;
+
 import model.DataStationMeteo;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import javax.xml.crypto.Data;
+
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
+
 import java.io.FileReader;
 import java.io.IOException;
-import java.nio.Buffer;
-
-import java.nio.file.Path;
 import java.util.ArrayList;
 
 public class TestReader {

@@ -58,6 +58,8 @@ public static ArrayList<DataStationMeteo> initFromListJson(ArrayList<JSONObject>
         return out;
     }
 
+    // recupere les mesures de l'object data
+
     public ArrayList<Mesure> getMesures(){
         ArrayList<Mesure> out = new ArrayList<>();
         JSONArray jsonArray = new JSONObject(getData()).getJSONArray("mesures");
